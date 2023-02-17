@@ -10,10 +10,10 @@
 
 int main(void)
 {
-signed char letter;
-for (letter = 0; letter <= 9; letter++)
+int x;
+for (x = '0'; x <= '9'; x++)
 {
-putchar(letter);
+putchar(x);
 }
 putchar('\n');
 return (0);
