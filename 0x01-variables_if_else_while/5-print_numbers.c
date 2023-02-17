@@ -11,14 +11,10 @@
 int main(void)
 {
 char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+for (letter = 0; letter <= 9; letter++)
 {
-if (letter == 'q' || letter == 'e')
-    {
-      continue;
-    }
-putchar(letter);
+printf("%d", letter);
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
