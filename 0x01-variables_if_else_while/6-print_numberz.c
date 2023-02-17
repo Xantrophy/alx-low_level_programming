@@ -10,8 +10,8 @@
 
 int main(void)
 {
-char letter = '0';
-for (letter = '0'; letter <= '9'; letter++)
+signed char letter;
+for (letter = 0; letter <= 9; letter++)
 {
 putchar(letter);
 }
