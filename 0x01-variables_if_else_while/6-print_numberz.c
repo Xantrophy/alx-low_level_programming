@@ -10,11 +10,11 @@
 
 int main(void)
 {
-int letter;
-for (letter = 0; letter <= 9; letter++)
+char letter = '0';
+for (letter = '0'; letter <= '9'; letter++)
 {
-printf("%d", letter);
+putchar(letter);
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
