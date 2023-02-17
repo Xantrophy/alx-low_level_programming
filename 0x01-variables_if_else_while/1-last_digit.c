@@ -8,6 +8,7 @@
 */
 int main(void)
 {
+int RAND_MAX = 0;
 int rand(void), srand(), time();
 int n;
 int p;
