@@ -2,6 +2,7 @@
 
 /**
  * _islower - Check description
+ * @c: An input character
  * Description: It prints the alphabet in lowercase fallowed by a new line
  * Return: Nothing.
  */
