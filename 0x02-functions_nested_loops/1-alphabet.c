@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - Check description
@@ -10,15 +10,7 @@ void print_alphabet(void)
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
-	putchar('\n');
+		_putchar(i);
+	_putchar('\n');
 }
-/**
- * print_alphabet - Check description
- * Description: It returns 0
- * Return: Always 0.
- */
-int main(void)
-{
-return (0);
-}
+
