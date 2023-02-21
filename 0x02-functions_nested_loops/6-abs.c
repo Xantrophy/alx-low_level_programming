@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_sign - Check description
+ * _abs(int) - Check description
  * @n: An input character
  * Description: It prints the alphabet in lowercase fallowed by a new line
  * Return: Nothing.
  */
-int print_sign(int n)
+int _abs(int n)
 {
 int y;
 int x;
