@@ -2,16 +2,15 @@
 
 /**
  * main - check the code
- *
- * Return: Always 0.
+ * Description: It prints the alphabet in lowercase fallowed by a new line
+ * Return: nothing.
  */
-int main(void)
+void print_alphabet(void)
 {
 int i;
-for (i = 'a' ; i < 'z' ; i++)
+for (i = 'a' ; i <= 'z' ; i++)
 {
 putchar(i);
 }
 putchar('\n');
-return (0);
 }
