@@ -12,7 +12,7 @@ int y;
 int x;
 if (n > 0)
 {
-xprintf("%d", n);
+x = printf("%d", n);
 }
 else if (n == 0)
 {
