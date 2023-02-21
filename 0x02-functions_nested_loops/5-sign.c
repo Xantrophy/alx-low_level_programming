@@ -8,7 +8,6 @@
  */
 int print_sign(int n)
 {
-char i;
 if (n > 0)
 {
 printf("%c", '+');
@@ -24,4 +23,5 @@ else if (n < 0)
 printf("%c", '-');
 return (-1);
 }
+return (0);
 }
