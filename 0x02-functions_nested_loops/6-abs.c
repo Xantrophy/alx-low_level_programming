@@ -9,18 +9,19 @@
 int _abs(int n)
 {
 int y;
+int x;
 if (n > 0)
 {
-printf("%d", n);
+xprintf("%d", n);
 }
 else if (n == 0)
 {
-printf("%d", n);
+x = printf("%d", n);
 }
 else if (n < 0)
 {
 y = n * -1;
-printf("%d", y);
+x = printf("%d", y);
 }
-return (0);
+return (x);
 }
