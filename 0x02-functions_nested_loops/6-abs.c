@@ -10,17 +10,12 @@ int _abs(int n)
 {
 int y;
 int x;
-if (n > 0)
+if (n >= 0)
 {
 return (n);
 }
-else if (n == 0)
+else (n < 0)
 {
-return (n);
-}
-else if (n < 0)
-{
-y = n * -1;
-return (y)
+return (n*-1);
 }
 }
