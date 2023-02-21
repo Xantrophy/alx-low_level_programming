@@ -12,16 +12,15 @@ int y;
 int x;
 if (n > 0)
 {
-x = printf("%d", n);
+return (n);
 }
 else if (n == 0)
 {
-x = printf("%d", n);
+return (n);
 }
 else if (n < 0)
 {
 y = n * -1;
-x = printf("%d", y);
+return (y)
 }
-return (x);
 }
