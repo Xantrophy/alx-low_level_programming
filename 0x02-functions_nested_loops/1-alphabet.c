@@ -1,16 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * print_alphabet - Check description
  * Description: It prints the alphabet in lowercase fallowed by a new line
- * Return: nothing.
+ * Return: Nothing.
  */
 void print_alphabet(void)
 {
-int i;
-for (i = 'a' ; i <= 'z' ; i++)
-{
-putchar(i);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
+	putchar('\n');
 }
-putchar('\n');
+/**
+ * print_alphabet - Check description
+ * Description: It returns 0
+ * Return: Always 0.
+ */
+int main(void)
+{
+return (0);
 }
