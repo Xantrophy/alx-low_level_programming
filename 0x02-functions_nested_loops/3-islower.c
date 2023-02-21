@@ -16,6 +16,5 @@ if (i == c)
 lower = 1;
 }
 }
-_putchar('\n');
 return (lower);
 }
