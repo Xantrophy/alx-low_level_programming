@@ -26,5 +26,5 @@ y = n * -1;
 printf("%d", y);
 x = -1;
 }
-return (0);
+return (x);
 }
