@@ -10,11 +10,15 @@ int _isalpha(int c)
 {
 int lower = 0;
 char i;
-for (i = 'a'; i <= 'Z'; i++)
+char j;
+for (i = 'a'; i <= 'z'; i++)
 {
-if (i == c)
+for (j = 'A'; j <= 'Z' ; j++)
+{
+if (i == c || j == c)
 {
 lower = 1;
+}
 }
 }
 return (lower);
