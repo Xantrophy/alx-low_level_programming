@@ -20,7 +20,7 @@ x = 0;
 }
 else if (n < 0)
 {
-_putcahr('-');
+_putchar('-');
 x = -1;
 }
 return (x);
