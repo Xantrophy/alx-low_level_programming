@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * print_last_digit - Check description
- * @n: An input character
- * Description: It prints the alphabet in lowercase fallowed by a new line
- * Return: Nothing.
+ * print_last_digit - Check Holberton
+ * @r: An integer input
+ * Description: This function prints the last digit of a number
+ * Return: last digit of number r
  */
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
 	int n;
 
