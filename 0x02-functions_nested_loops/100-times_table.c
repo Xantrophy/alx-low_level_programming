@@ -19,7 +19,7 @@ for (i = 1 ; i <= n ; i++)
 {
 for (j = 0 ; j <= i * n ; j += i)
 {
-printf("%d,   ", j);
+putformat(j);
 if (n < 0 || n > 15)
 {
 break;
