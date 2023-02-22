@@ -12,7 +12,12 @@ int i;
 int j;
 for (i = 1 ; i <= n ; i++)
 {
-for (j = 0 ; j < i * n ; j += i)
+printf("%d,   ", 0);
+printf("%s", "\n");
+}
+for (i = 1 ; i <= n ; i++)
+{
+for (j = 0 ; j <= i * n ; j += i)
 {
 printf("%d,   ", j);
 if (n < 0 || n > 15)
@@ -20,6 +25,6 @@ if (n < 0 || n > 15)
 break;
 }
 }
-_putchar('\n');
+printf("%s", '\n');
 }
 }
