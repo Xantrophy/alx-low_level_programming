@@ -12,7 +12,7 @@ int i;
 int j;
 for (i = 0 ; i <= n ; i++)
 {
-for (j = 0 ; j < i * n ; j += i)
+for (j = 0 ; j <= i * n ; j += i)
 {
 printf("%d,   ", j);
 if (n < 0 || n > 15)
