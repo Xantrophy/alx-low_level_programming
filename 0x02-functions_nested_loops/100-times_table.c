@@ -19,7 +19,7 @@ for (i = 1 ; i <= n ; i++)
 for (j = 0 ; j <= i * n ; j += i)
 {
 if (j != n)
-}
+{
 printf("%d,  ", j);
 }
 else
@@ -31,6 +31,5 @@ if (n < 0 || n > 15)
 break;
 }
 }
-printf("%c", '\n');
 }
 }
