@@ -13,7 +13,7 @@ int j;
 for (i = 1 ; i <= n ; i++)
 {
 printf("%d,   ", 0);
-printf("%s", "\n");
+printf("%c", '\n');
 }
 for (i = 1 ; i <= n ; i++)
 {
@@ -25,6 +25,6 @@ if (n < 0 || n > 15)
 break;
 }
 }
-printf("%s", '\n');
+printf("%c", '\n');
 }
 }
