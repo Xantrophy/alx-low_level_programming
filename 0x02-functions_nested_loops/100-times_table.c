@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_times_table - prints times table for numbers from 0-14
  * @n: An input integer value
@@ -19,7 +19,7 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-if (n = 0)
+if (n == 0)
 {
 printf("%d", 0);
 }
