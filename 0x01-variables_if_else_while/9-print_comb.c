@@ -18,6 +18,7 @@ while (x < '9')
 {
 putchar (',');
 putchar (' ');
+x--;
 }
 putchar('\n');
 }
