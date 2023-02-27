@@ -1,23 +1,18 @@
 #include "main.h"
 
 /**
- * rev_string - a function that reverse a string
- * followed by a new line.
- * @s: an input string
+ * puts_half - Write a function that prints a string, followed
+ * by a new line, to stdout.
+ * @str: an input string
  * Return: Nothing
  */
-void rev_string(char *s)
+void puts_half(char *str)
 {
-	int len = 0, i = 0;
-	char x;
-
-	while (s[len] != '\0')
-		len++;
-
-	while (i < len--)
-	{
-		x = s[i];
-		s[i++] = s[len];
-		s[len] = x;
-	}
+    int len = 0;
+    int i = 0;
+    while (str[len] != '\0')
+        len++;
+    while (i > (len / 2) && i <= len)
+        _putchar(s[i]);
+    _putchar('\n');
 }
